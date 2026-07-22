@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ProjectGallery from "./project-gallery";
 
 export default function Home() {
   const Project  = [
@@ -7,14 +7,16 @@ export default function Home() {
       name: "HelloWorld - Portfolio Website",
       description: "",
       highlights: [],
-      languages: []
+      languages: [],
+      images: [],
     },
     {
       date: "May 2026 - Aug 2026",
       name: "Hotel Booking Website",
       description: "WIP",
       highlights: [],
-      languages: []
+      languages: [],
+      images: [],
     },
     {
       date: "Jan 2026 - Apr 2026",
@@ -28,8 +30,14 @@ export default function Home() {
         "Built the Budget feature."
       ],
       languages: [
-        { name: "Java", percentage: 100, color: "#ea580c" },
-      ]
+        { name: "Java", percentage: 100, color: "#903c0e" },
+      ],
+      images: [
+        "/everflow/category1.jpg",
+        "/everflow/budget1.jpg",
+        "/everflow/currency1.jpg",
+        "/everflow/theme1.jpg",
+      ],
     }
   ];
 
@@ -83,7 +91,7 @@ export default function Home() {
                     </ul>
                   )}
 
-                  {/* Progress Bar */}
+                  {/* Programming Language Used */}
                   {project.languages && project.languages.length > 0 && (
                     <div className="mt-3 flex items-center gap-2">
                       {/* Progress Bar */}
@@ -96,17 +104,19 @@ export default function Home() {
                           }}
                         />
                       </div>
-                      
-                      {/* Language Label  */}
+                
+                      {/* Language Label */}
                       <span 
                         className="text-xs font-semibold whitespace-nowrap"
                         style={{ color: project.languages[0].color }}
                       >
                         {project.languages[0].name} {project.languages[0].percentage}%
                       </span>
-
                     </div>
                   )}
+
+                  {/* Project Images */}
+                  <ProjectGallery images={project.images} projectName={project.name} />
 
                 </div>
               </article>
