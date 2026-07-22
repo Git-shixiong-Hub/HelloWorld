@@ -33,10 +33,10 @@ export default function Home() {
         { name: "Java", percentage: 100, color: "#903c0e" },
       ],
       images: [
-        "/everflow/category1.jpg",
-        "/everflow/budget1.jpg",
-        "/everflow/currency1.jpg",
-        "/everflow/theme1.jpg",
+        "/everflow/category.jpg",
+        "/everflow/budget.jpg",
+        "/everflow/currency.jpg",
+        "/everflow/theme.jpg",
       ],
     }
   ];
