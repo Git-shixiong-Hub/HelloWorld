@@ -2,7 +2,7 @@ export const projects = [
   {
     date: "Jul 2026 - Present",
     name: "HelloWorld - Portfolio Website",
-    description: "",
+    description: "A documentation of my journey as a computer science student, and as a person",
     highlights: [],
     languages: [],
     images: [],
@@ -11,7 +11,10 @@ export const projects = [
     date: "May 2026 - Aug 2026",
     name: "Hotel Booking Website",
     description: "WIP",
-    highlights: [],
+    highlights: [
+      "Implemented guest information storage using MySQL",
+      "Integrated Stripe for secure payment processing",
+    ],
     languages: [],
     images: [],
   },
@@ -21,10 +24,11 @@ export const projects = [
     description: "Expense tracking made simple",
     highlights: [
       "Developed using Android Studio",
-      "Implemented Light and Dark themes using Material Theme Builder",
+      "Implemented local data persistence using Room Database",
+      "Developed expense and income category feature",
+      "Developed budget feature",
       "Integrated ExchangeRate-API for multi-currency conversion",
-      "Developed the Expense & Income Categories feature.",
-      "Built the Budget feature.",
+      "Implemented light and dark themes using Material Theme Builder",
     ],
     languages: [
       {
