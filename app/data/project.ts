@@ -1,16 +1,16 @@
 export const projects = [
   {
-    date: "Jul 2026 - Present",
-    name: "HelloWorld - Portfolio Website",
+    date: "Jul 26 - Present",
+    name: "HelloWorld | Portfolio Website",
     description: "A documentation of my journey as a computer science student, and as a person",
     highlights: [],
     languages: [],
     images: [],
   },
   {
-    date: "May 2026 - Aug 2026",
+    date: "May 26 - Aug 26",
     name: "Hotel Booking Website",
-    description: "WIP",
+    description: "",
     highlights: [
       "Implemented guest information storage using MySQL",
       "Integrated Stripe for secure payment processing",
@@ -19,16 +19,14 @@ export const projects = [
     images: [],
   },
   {
-    date: "Jan 2026 - Apr 2026",
-    name: "Everflow - Expense Tracker App",
+    date: "Jan 26 - Apr 26",
+    name: "Everflow | Expense Tracker App",
     description: "Expense tracking made simple",
     highlights: [
       "Developed using Android Studio",
       "Implemented local data persistence using Room Database",
-      "Developed expense and income category feature",
-      "Developed budget feature",
-      "Integrated ExchangeRate-API for multi-currency conversion",
       "Implemented light and dark themes using Material Theme Builder",
+      "Integrated ExchangeRate-API for multi-currency conversion",
     ],
     languages: [
       {
@@ -41,8 +39,6 @@ export const projects = [
       "/project/everflow/poster.jpg",
       "/project/everflow/category.jpg",
       "/project/everflow/budget.jpg",
-      "/project/everflow/currency.jpg",
-      "/project/everflow/theme.jpg",
     ],
   },
 ];

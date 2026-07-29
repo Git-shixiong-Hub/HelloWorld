@@ -12,7 +12,7 @@ export default function JourneySection({
   journey,
 }: JourneySectionProps) {
   return (
-    <section className="w-full mt-16">
+    <section className="w-full">
       <div className="flex items-center gap-6 mb-12">
         <div className="flex-1 h-px bg-white/15" />
         <h2 className="text-2xl font-bold whitespace-nowrap">

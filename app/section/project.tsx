@@ -22,7 +22,9 @@ export default function ProjectSection({ projects }: ProjectSectionProps) {
     <section className="w-full">
       <div className="flex items-center gap-6 mb-12">
         <div className="flex-1 h-px bg-white/15" />
-        <h2 className="text-2xl font-bold whitespace-nowrap">Projects</h2>
+        <h2 className="text-2xl font-bold whitespace-nowrap">
+          Project
+        </h2>
         <div className="flex-1 h-px bg-white/15" />
       </div>
 

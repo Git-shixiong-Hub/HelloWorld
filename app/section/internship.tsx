@@ -1,37 +1,31 @@
-import ProjectGallery from "../gallery";
-
-type Award = {
+type Internship = {
   date: string;
   name: string;
-  description: string;
-  images: string[];
 };
 
-type AwardSectionProps = {
-  awards: Award[];
+type InternshipSectionProps = {
+  internship: Internship[];
 };
 
-export default function AwardSection({
-  awards,
-}: AwardSectionProps) {
+export default function InternshipSection({
+  internship,
+}: InternshipSectionProps) {
   return (
     <section className="w-full">
       <div className="flex items-center gap-6 mb-12">
         <div className="flex-1 h-px bg-white/15" />
-
         <h2 className="text-2xl font-bold whitespace-nowrap">
-          Award
+          Internship
         </h2>
-
         <div className="flex-1 h-px bg-white/15" />
       </div>
 
       <div className="relative space-y-8 max-w-2xl">
         <div className="absolute bottom-5 left-5 top-5 w-px bg-white/15" />
 
-        {awards.map((award) => (
+        {internship.map((item) => (
           <article
-            key={award.name}
+            key={item.name}
             className="relative flex gap-5"
           >
             <div className="z-10 flex size-10 shrink-0 items-center justify-center rounded-full border border-white/20 bg-[#0d0d0d] text-sm font-semibold text-white">
@@ -39,21 +33,12 @@ export default function AwardSection({
 
             <div className="min-w-0 pb-2">
               <time className="text-xs text-zinc-500">
-                {award.date}
+                {item.date}
               </time>
 
               <p className="mt-1 text-sm font-semibold text-zinc-300">
-                {award.name}
+                {item.name}
               </p>
-
-              <p className="mt-1 text-xs text-zinc-600">
-                {award.description}
-              </p>
-              
-              <ProjectGallery
-                images={award.images}
-                projectName={award.name}
-              />
             </div>
           </article>
         ))}
