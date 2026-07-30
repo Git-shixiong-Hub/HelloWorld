@@ -4,7 +4,18 @@ export const projects = [
     name: "HelloWorld | Portfolio Website",
     description: "A documentation of my journey as a computer science student, and as a person",
     highlights: [],
-    languages: [],
+    languages: [
+      {
+        name: "TypeScript",
+        percentage: 97.2,
+        color: "#3178c6",
+      },
+      {
+        name: "CSS",
+        percentage: 2.8,
+        color: "#563d7c",
+      }
+    ],
     images: [],
   },
   {
@@ -32,7 +43,7 @@ export const projects = [
       {
         name: "Java",
         percentage: 100,
-        color: "#903c0e",
+        color: "#b07219",
       },
     ],
     images: [
