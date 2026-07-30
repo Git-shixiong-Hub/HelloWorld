@@ -1,11 +1,11 @@
-import { projects } from "./data/project";
 import { award } from "./data/award"
-import { journey } from "./data/journey";
-import InternshipSection from "./section/internship";
-import ProjectSection from "./section/project";
-import AwardSection from "./section/award";
-import JourneySection from "./section/journey";
 import { internship } from "./data/internship";
+import { journey } from "./data/journey";
+import { projects } from "./data/project";
+import AwardSection from "./section/award";
+import InternshipSection from "./section/internship";
+import JourneySection from "./section/journey";
+import ProjectSection from "./section/project";
 
 export default function Home() {
   return (
