@@ -1,10 +1,10 @@
 export const internship = [
   {
-    date: "Sep 26 - Dec 27",
-    name: "Certis | Software Engineer Intern",
+    date: "24 Aug 26 - 1 Jan 27",
+    name: "Certis | Software Engineer",
   },
   {
     date: "Mar 21 - Aug 21",
-    name: "ST Engineering Aerospace | Warehouse Assistant Intern",
+    name: "ST Engineering Aerospace | Warehouse Assistant",
   }
 ];

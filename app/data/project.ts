@@ -7,12 +7,12 @@ export const projects = [
     languages: [
       {
         name: "TypeScript",
-        percentage: 97.2,
+        percentage: 97.4,
         color: "#3178c6",
       },
       {
         name: "CSS",
-        percentage: 2.8,
+        percentage: 2.6,
         color: "#563d7c",
       }
     ],
@@ -23,21 +23,37 @@ export const projects = [
     name: "Hotel Booking Website",
     description: "",
     highlights: [
-      "Implemented guest information storage using MySQL",
-      "Integrated Stripe for secure payment processing",
+      "Docker + Railway for deployment",
+      "Prisma + MySQL for booking data persistence",
+      "Stripe integration for payment processing",
+      "Jest test coverage for booking logic"
     ],
-    languages: [],
-    images: [],
+    languages: [
+      {
+        name: "TypeScript",
+        percentage: 98.9,
+        color: "#3178c6",
+      },
+      {
+        name: "Other",
+        percentage: 1.1,
+        color: "#ccc",
+      }
+    ],
+    images: [
+      "/project/hotelbookingwebsite/makebooking.png",
+      "/project/hotelbookingwebsite/makepayment.png"
+    ],
   },
   {
     date: "Jan 26 - Apr 26",
     name: "Everflow | Expense Tracker App",
     description: "Expense tracking made simple",
     highlights: [
-      "Developed using Android Studio",
-      "Implemented local data persistence using Room Database",
-      "Implemented light and dark themes using Material Theme Builder",
-      "Integrated ExchangeRate-API for multi-currency conversion",
+      "Android Studio for native Android development",
+      "Room for local data persistence",
+      "Material Theme Builder for adaptive light/dark theming",
+      "ExchangeRate-API for multi-currency conversion"
     ],
     languages: [
       {
